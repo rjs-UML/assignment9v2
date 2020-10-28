@@ -1,6 +1,6 @@
 package edu.rseymour.advancedjava.servlet;
 
-import com.origami.teach.model.Mood;
+import edu.rseymour.advancedjava.model.Mood;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletContext;

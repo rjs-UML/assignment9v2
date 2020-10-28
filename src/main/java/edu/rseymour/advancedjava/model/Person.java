@@ -1,4 +1,4 @@
-package com.origami.teach.model;
+package edu.rseymour.advancedjava.model;
 
 /**
  * This class used for processing form data.

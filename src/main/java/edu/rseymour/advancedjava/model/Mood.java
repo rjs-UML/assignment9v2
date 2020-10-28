@@ -1,4 +1,4 @@
-package com.origami.teach.model;
+package edu.rseymour.advancedjava.model;
 
 /**
  *  A simple container class used to capture form data.
