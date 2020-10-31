@@ -17,7 +17,7 @@
     </servlet>
     
     <servlet>
-        <servlet-name>StockSearch</servlet-name>
+        <servlet-name>StockSearchServlet</servlet-name>
         <servlet-class>edu.rseymour.advancedjava.servlet.StockSearchServlet</servlet-class>
     </servlet>
 
@@ -25,16 +25,18 @@
         <servlet-name>ServletForwardingExample</servlet-name>
         <url-pattern>/servlets/ServletForwardingExample/*</url-pattern>
     </servlet-mapping>
+
     <servlet-mapping>
         <servlet-name>RequestInfoExample</servlet-name>
         <url-pattern>/servlets/RequestInfoExample/*</url-pattern>
     </servlet-mapping>
+
+
+    <!-- This is the new part -->
     <servlet-mapping>
-        <servlet-name>StockSearch</servlet-name>
-        <url-pattern>/servlets/StockSearch/*</url-pattern>
+        <servlet-name>StockSearchServlet</servlet-name>
+        <url-pattern>/servlets/StockSearchServlet/*</url-pattern>
     </servlet-mapping>
-
-
 
 
 </web-app>
